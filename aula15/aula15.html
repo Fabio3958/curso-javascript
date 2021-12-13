@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>CFB Cursos - Javascript</title>
+        <meta charset="utf-8">
+
+        <script>
+
+            var mochila = [];
+            var mochila1 = [];
+            var mochila2 = []
+            var num = [5, 2, 1, 6, 4, 8];
+
+            mochila1.push("Faca");
+            mochila1.push("Corda");
+            mochila1.push("Pederneira");
+
+            mochila2.push("Chave");
+            mochila2.push("Lanterna");
+            mochila2.push("Pedra");
+
+            mochila = mochila1.concat(mochila2)
+
+
+
+            /*pos = mochila.indexOf("la");
+
+            if (pos < 0){
+                document.write("Item não está na mochila");
+            }
+            else{
+                document.write("Item está na mochila <br>Posição:" + pos);
+            }*/
+
+            num.sort();
+
+            document.write(mochila[0] + "<br>");
+            document.write(mochila[1] + "<br>");
+            document.write(mochila[2] + "<br>");
+            document.write(mochila[3] + "<br>");
+            document.write(mochila[4] + "<br>");
+            document.write(mochila[5] + "<br>");
+
+            document.write(mochila1.length);
+            document.write(mochila2.length);
+            document.write(mochila.length);
+
+        </script>
+    </head>
+
+    <body>
+        
+    </body>
+</html>
