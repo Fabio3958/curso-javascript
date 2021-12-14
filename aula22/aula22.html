@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>CFB Cursos - Javascript</title>
+    <meta charset="utf-8" />
+
+    <script>
+
+        var num; 
+
+        try{
+            num = prompt("Digite um valor");
+
+            if (num > 10){
+                throw new Error("Valor inválido, o valor deve ser menor que 10 <br>");
+            }
+            
+            document.write("Valor: " + num);
+        }
+        catch(e){
+            console.log("ERRO: " + e.message);
+            num = 10;
+        }
+        finally{
+            document.write("Valor: " + num);
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
